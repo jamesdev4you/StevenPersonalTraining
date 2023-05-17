@@ -70,7 +70,10 @@ export default function Home() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
-        style={{ transform: "rotate(180deg)", backgroundColor: "#46B4E0" }}
+        style={{
+          transform: "rotate(180deg)",
+          backgroundColor: "#46B4E0",
+        }}
       >
         <path
           fill="#26A7DA "

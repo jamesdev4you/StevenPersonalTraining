@@ -10,18 +10,21 @@ export default function Video() {
     <Box
       className="video--container"
       sx={{
-        width: "80%",
+        width: "100%",
         height: "100vh",
         margin: "auto",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
-        gap: "50px",
+        justifyContent: "start",
+        gap: "100px",
       }}
     >
-      <h1 className="heading montserrat video-header">
-        I will push you past all your limits and achieve your dreams!
+      <h1
+        className="heading montserrat video-header"
+        style={{ fontSize: "2.5em", marign: "0" }}
+      >
+        I'll help achieve your dreams!
       </h1>
       <video width="80%" height="auto" controls>
         <source

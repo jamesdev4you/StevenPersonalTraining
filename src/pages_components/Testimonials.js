@@ -20,11 +20,19 @@ export default function Testimonials() {
         alignItems: "center",
       }}
     >
-      <h1 className="heading montserrat" style={{ fontSize: "2em" }}>
-        Testimonials{" "}
+      <h1
+        className="heading montserrat"
+        style={{ fontSize: "2.3em", margin: "0px", textAlign: "center" }}
+      >
+        Testimonials From Happy Clients!
       </h1>
       <Swiper
-        style={{ height: "80%", width: "60vw", minWidth: "400px" }}
+        style={{
+          height: "80%",
+          width: "60vw",
+          minWidth: "400px",
+          marginTop: "0px",
+        }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={1}

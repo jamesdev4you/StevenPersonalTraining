@@ -52,8 +52,11 @@ export default function HomePageGrid() {
         alignItems: "center",
       }}
     >
-      <h1 className="heading montserrat" style={{ textAlign: "center" }}>
-        Plenty of options for you to choose! Make fitness work for you!
+      <h1
+        className="heading montserrat"
+        style={{ textAlign: "center", fontSize: "2.2em", width: "100%" }}
+      >
+        Plenty of options for you to choose!
       </h1>
 
       <Box
