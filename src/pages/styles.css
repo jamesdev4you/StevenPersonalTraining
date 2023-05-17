@@ -1,0 +1,585 @@
+svg {
+  display: block;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 45px;
+  color: white;
+}
+
+.paragraph {
+  font-size: 25px;
+  color: white;
+}
+
+.home-opening-button {
+  padding: 20px;
+  color: white;
+  background: #ff5008;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.home-opening-button:hover {
+  cursor: pointer;
+}
+
+.home-opening-pic-and-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-opening-pic {
+  background-image: url(../assets/steve.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-right: 50px;
+}
+
+.home-opening-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-opening-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.home-opening-list-item-icon {
+  transform: scale(1.5);
+  padding-right: 10px;
+  color: white;
+}
+
+.grid-container {
+  background: #26a7da;
+  height: 100vh;
+  width: 100%;
+}
+
+.home-page-grid-card {
+  width: 500px;
+  height: 800px;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.muscle-pic {
+  background-image: url(../assets/gympic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border-bottom: 4px solid white;
+}
+
+.blueberries-pic {
+  background-image: url(../assets/blueberries.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border-bottom: 4px solid white;
+}
+
+.running-pic {
+  background-image: url(../assets/running.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border-bottom: 4px solid white;
+}
+
+.Grid-item-heading {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.Grid-item-paragraph {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: white;
+  font-size: 17px;
+}
+
+.Grid-item-opening-button {
+  padding: 20px;
+  margin-top: 35px;
+  color: white;
+  background: #ff5008;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.Grid-item-opening-button:hover {
+  cursor: pointer;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+
+.video-header {
+  width: 80%;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 35px;
+}
+
+.contact--pic {
+  background-image: url(../assets/contactOne.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 500px;
+  margin-bottom: 30px;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+.contact--pic--two {
+  background-image: url(../assets/contactTwo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 500px;
+  margin-bottom: 30px;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+.plans--opening {
+  height: auto;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.plans--box {
+  width: 20%;
+  min-width: 500px;
+  padding: 30px 0;
+  height: 60%;
+  background-color: rgba(0, 149, 255, 0.723);
+  border-radius: 5px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.plans--grid {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.plans--grid--header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1976d2;
+  border-top: 3px solid black;
+}
+
+.plans--grid--pic--description {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+.plans--grid-description {
+  width: 50%;
+  height: 80vh;
+}
+
+.plans--grid--pic {
+  width: 50%;
+  height: 80vh;
+  background-image: url(../assets/gympic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plans--grid--pic--two {
+  width: 50%;
+  height: 80vh;
+  background-image: url(../assets/blueberries.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid--desciription--header {
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+.grid--desciription--paragraph {
+  padding-left: 50px;
+  width: 80%;
+  padding-top: 50px;
+  color: white;
+}
+
+.grid--desciription--icon--list {
+  width: 70%;
+  height: 20vh;
+  padding-top: 30px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+.grid--desciription--icon {
+  transform: scale(4);
+  color: white;
+}
+
+.grid--desciription--icon--word {
+  text-align: center;
+  font-size: 20px;
+  width: 20%;
+  color: white;
+}
+
+.grid--desciription--word {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1700px) {
+  .contact--pic {
+    display: none;
+  }
+
+  .contact--pic--two {
+    display: none;
+  }
+
+  .home-container {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .home-opening-text-and-button {
+    text-align: center;
+    width: 100%;
+  }
+
+  .home-page-grid-card {
+    flex-direction: column;
+  }
+
+  .grid-container {
+    height: 2000px;
+  }
+
+  .home-page-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .home-page-grid-card {
+    width: 400px;
+    height: 700px;
+  }
+
+  .muscle-pic {
+    width: 400px;
+    height: 400px;
+  }
+
+  .blueberries-pic {
+    width: 400px;
+    height: 400px;
+  }
+
+  .running-pic {
+    width: 400px;
+    height: 400px;
+  }
+  .plans--grid--pic {
+    display: none;
+  }
+
+  .plans--grid--pic--two {
+    display: none;
+  }
+
+  .second--description {
+    display: none;
+  }
+
+  .plans--grid-description {
+    height: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1377px) {
+  .grid-container {
+    height: 2700px;
+  }
+  .video--container > h1 {
+    width: 700px;
+  }
+
+  .video--container > video {
+    width: 700px;
+  }
+
+  .plans--grid-description {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  .home-opening-text-and-button > h1 {
+    font-size: 2em;
+    padding: 0;
+  }
+
+  .home-page-grid-container > h1 {
+    font-size: 2em;
+    padding: 0;
+  }
+
+  .Grid-item-opening-button {
+    margin-bottom: 15px;
+  }
+
+  .video--container > h1 {
+    font-size: 2em;
+  }
+
+  .plans--grid--header > h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-container {
+    height: 1100px;
+  }
+
+  .home-opening-text-and-button {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 25px;
+  }
+  .home-opening-text-and-button > h1 {
+    font-size: 1.5em;
+    padding: 0;
+  }
+  .home-opening-text-and-button > h3 {
+    font-size: 1.1em;
+    padding: 0;
+  }
+  .home-opening-button {
+    padding: 10px;
+    font-size: 1.5em;
+    border: 2px solid white;
+  }
+  .home-opening-pic-and-list {
+    flex-direction: column;
+  }
+
+  .home-opening-pic {
+    margin-right: 0px;
+  }
+
+  .home-opening-list {
+    margin-left: 15px;
+  }
+
+  .home-page-grid-container > h1 {
+    font-size: 1.5em;
+    padding: 0;
+  }
+
+  .home-page-grid-card {
+    width: 300px;
+    height: 600px;
+  }
+
+  .grid-container {
+    height: 2300px;
+  }
+
+  .muscle-pic {
+    width: 300px;
+    height: 300px;
+  }
+
+  .blueberries-pic {
+    width: 300px;
+    height: 300px;
+  }
+
+  .running-pic {
+    width: 300px;
+    height: 300px;
+  }
+
+  .grid-content > h4 {
+    font-size: 1.8em;
+  }
+
+  .grid-content > h5 {
+    font-size: 13px;
+  }
+
+  .Grid-item-opening-button {
+    font-size: 1.8em;
+  }
+
+  .video--container > h1 {
+    width: 500px;
+    font-size: 1.5em;
+  }
+
+  .video--container > video {
+    width: 500px;
+  }
+
+  .plans--box {
+    min-width: 350px;
+    height: 550px;
+  }
+
+  .plans--box > h1:first-of-type {
+    font-size: 30px;
+  }
+
+  .plans--box > h1 {
+    font-size: 20px;
+  }
+
+  .plans--grid--header > h1 {
+    font-size: 1.7em;
+    padding: 15px;
+  }
+
+  .plans--grid-description {
+    margin: auto;
+  }
+
+  .plans--grid-description > h1 {
+    font-size: 1.5em;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+  }
+
+  .grid--desciription--icon--list {
+    padding: 20px 0 0 0;
+    width: 100%;
+  }
+
+  .grid--desciription--icon {
+    transform: scale(2);
+  }
+
+  .grid--desciription--word {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .header--title {
+    display: none;
+  }
+
+  .home-opening-pic {
+    height: 250px;
+    width: 250px;
+  }
+
+  .home-opening-list-item-icon {
+    transform: scale(1.5);
+  }
+
+  .home-opening-list-item > h3 {
+    font-size: 25px;
+  }
+
+  .home-page-grid-container > h1 {
+    font-size: 1.5em;
+    padding: 0;
+  }
+
+  .video--container > h1 {
+    width: 300px;
+    font-size: 1.5em;
+  }
+
+  .video--container > video {
+    width: 300px;
+  }
+
+  .home-opening-pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .plans--grid--header > h1 {
+    font-size: 1.3em;
+  }
+}
