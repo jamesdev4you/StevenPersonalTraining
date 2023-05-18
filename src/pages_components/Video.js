@@ -68,7 +68,7 @@ export default function Video() {
           },
           2000: {
             slidesPerView: 3,
-            spaceBetween: 120,
+            spaceBetween: 230,
           },
         }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
