@@ -19,6 +19,7 @@ export default function Contact() {
       <Box className="contact--pic" />
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSfX5edo8DRP-uKdxXtovnPdqWyVpOX6YihthH7pckNqTAc0zQ/viewform?embedded=true"
+        title="contact"
         width="700px"
         height="900"
         frameborder="0"
@@ -29,6 +30,7 @@ export default function Contact() {
           marginTop: "100px",
           marginBottom: "100px",
           borderRadius: "10px",
+          backgroundColor: "#46B4E0",
         }}
       />
       <Box className="contact--pic--two" />

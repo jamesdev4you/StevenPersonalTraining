@@ -162,6 +162,39 @@ svg {
   margin-bottom: 35px;
 }
 
+.swiper {
+  height: 50%;
+  width: 80vw;
+  min-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.icon--swiper {
+  transform: scale(3);
+  z-index: 9999;
+  color: white;
+}
+
+.icon--header {
+  padding-top: 30px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.icon--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 340px;
+  min-height: 300px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 0 30px;
+}
+
 .contact--pic {
   background-image: url(../assets/contactOne.jpg);
   background-position: center;
@@ -381,12 +414,13 @@ svg {
     width: 700px;
   }
 
-  .video--container > video {
-    width: 700px;
-  }
-
   .plans--grid-description {
     width: 90%;
+  }
+
+  .icon--box {
+    width: 300px;
+    height: 250px;
   }
 }
 
@@ -411,6 +445,21 @@ svg {
 
   .plans--grid--header > h1 {
     font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .swiper {
+    height: 55%;
+  }
+  .icon--box {
+    margin: auto;
+    width: 400px;
+    min-height: 400px;
+  }
+
+  .icon--header {
+    font-size: 1.5em;
   }
 }
 
@@ -580,5 +629,19 @@ svg {
 
   .plans--grid--header > h1 {
     font-size: 1.3em;
+  }
+
+  .slider {
+    height: 20%;
+    min-width: 200px;
+  }
+
+  .icon--box {
+    width: 250px;
+    min-height: 250px;
+  }
+
+  .icon--header {
+    font-size: 1.1em;
   }
 }
