@@ -22,19 +22,7 @@ import "../index.css";
 
 export default function Video() {
   return (
-    <Box
-      className="video--container"
-      sx={{
-        width: "100%",
-        height: "80vh",
-        margin: "auto",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "start",
-        gap: "10px",
-      }}
-    >
+    <Box className="video--container">
       <h1
         className="heading montserrat video-header"
         style={{ fontSize: "2.5em", marign: "0" }}
@@ -46,8 +34,7 @@ export default function Video() {
         breakpoints={{
           // when window width is >= 320px
           900: {
-            slidesPerView: 2,
-            spaceBetween: 2,
+            slidesPerView: 1,
           },
           1050: {
             slidesPerView: 2,
@@ -68,14 +55,14 @@ export default function Video() {
           },
           2000: {
             slidesPerView: 3,
-            spaceBetween: 230,
+            spaceBetween: 195,
           },
         }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         navigation
         pagination={{ clickable: true }}
       >
-        <SwiperSlide>
+        <SwiperSlide style={{ width: "100%" }}>
           <Box className="icon--box">
             <AddCardIcon className="icon--swiper" />
 

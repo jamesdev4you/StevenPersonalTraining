@@ -29,8 +29,9 @@ export default function Testimonials() {
       <Swiper
         style={{
           height: "80%",
+          minHeight: "400px",
           width: "60vw",
-          minWidth: "400px",
+          minWidth: "350px",
           marginTop: "0px",
         }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
