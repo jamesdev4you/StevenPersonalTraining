@@ -58,6 +58,7 @@ export default function Video() {
             spaceBetween: 195,
           },
         }}
+        grabCursor
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         navigation
         pagination={{ clickable: true }}
@@ -66,7 +67,9 @@ export default function Video() {
           <Box className="icon--box">
             <AddCardIcon className="icon--swiper" />
 
-            <h3 className="heading montserrat icon--header">Roland Sanchez</h3>
+            <h3 className="heading montserrat icon--header">
+              Accepting any form of money!
+            </h3>
           </Box>
         </SwiperSlide>
         <SwiperSlide>
@@ -76,7 +79,7 @@ export default function Video() {
               className="heading montserrat icon--header"
               style={{ margin: "0", fontSize: "1.5em" }}
             >
-              Roland Sanchez
+              Virtual or Real Life!
             </h3>
           </Box>
         </SwiperSlide>
@@ -87,7 +90,7 @@ export default function Video() {
               className="heading montserrat icon--header"
               style={{ margin: "0", fontSize: "1.5em" }}
             >
-              Roland Sanchez
+              Cash Back guarantee!
             </h3>
             <Box sx={{ width: "40%" }}></Box>
           </Box>
@@ -99,7 +102,7 @@ export default function Video() {
               className="heading montserrat icon--header"
               style={{ margin: "0", fontSize: "1.5em" }}
             >
-              Roland Sanchez
+              813-445-8102
             </h3>
           </Box>
         </SwiperSlide>
@@ -110,7 +113,7 @@ export default function Video() {
               className="heading montserrat icon--header"
               style={{ margin: "0", fontSize: "1.5em" }}
             >
-              Roland Sanchez
+              Transportation
             </h3>
           </Box>
         </SwiperSlide>
@@ -121,7 +124,7 @@ export default function Video() {
               className="heading montserrat icon--header"
               style={{ margin: "0", fontSize: "1.5em" }}
             >
-              Roland Sanchez
+              Goals achieved!
             </h3>
           </Box>
         </SwiperSlide>
@@ -132,7 +135,7 @@ export default function Video() {
               className="heading montserrat icon--header"
               style={{ margin: "0", fontSize: "1.5em" }}
             >
-              Roland Sanchez
+              Imporve flexibilty!
             </h3>
           </Box>
         </SwiperSlide>
