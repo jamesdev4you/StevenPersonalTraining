@@ -251,7 +251,7 @@ svg {
 .plans--opening {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 56px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -314,7 +314,7 @@ svg {
 .plans--grid--pic {
   width: 50%;
   height: 80vh;
-  background-image: url(../assets/gympic.jpg);
+  background-image: url(../assets/gympic2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,7 +323,7 @@ svg {
 .plans--grid--pic--two {
   width: 50%;
   height: 80vh;
-  background-image: url(../assets/blueberries.jpg);
+  background-image: url(../assets/healthyfood4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

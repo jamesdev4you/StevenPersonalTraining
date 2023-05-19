@@ -68,7 +68,7 @@ export default function Video() {
             <AddCardIcon className="icon--swiper" />
 
             <h3 className="heading montserrat icon--header">
-              Accepting any form of money!
+              Accepting any form of payment!
             </h3>
           </Box>
         </SwiperSlide>

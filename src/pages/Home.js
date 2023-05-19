@@ -21,7 +21,7 @@ export default function Home() {
       <Box className="home-container">
         <Box className="home-opening-text-and-button">
           <h1 className="montserrat heading">
-            Lose Weight and Gain Confendece
+            Lose Weight and Gain Confidence
           </h1>
           <h1 className="montserrat heading">
             With Your Own Personal Trainer!
@@ -52,7 +52,7 @@ export default function Home() {
             </Box>
             <Box className="home-opening-list-item">
               <MonitorWeightIcon className="home-opening-list-item-icon" />
-              <h3 className="montserrat paragraph">Loss Weight</h3>
+              <h3 className="montserrat paragraph">Lose Weight</h3>
             </Box>
           </Box>
         </Box>

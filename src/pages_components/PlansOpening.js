@@ -11,7 +11,7 @@ export default function PlansOpening() {
     <Box className="plans--opening" sx={{ backgroundColor: "#46B4E0" }}>
       <Box className="plans--box">
         <h1 className="heading montserrat" style={{ textAlign: "center" }}>
-          Gain Muscle!
+          Enhance Cardio!
         </h1>
         <h1
           className="paragraph montserrat"
@@ -23,7 +23,7 @@ export default function PlansOpening() {
           className="paragraph montserrat"
           style={{ textAlign: "left", width: "80%" }}
         >
-          ✓ Home or Gym workouts
+          ✓ Aerobic Training
         </h1>
         <h1
           className="paragraph montserrat"
@@ -35,13 +35,13 @@ export default function PlansOpening() {
           className="paragraph montserrat"
           style={{ textAlign: "left", width: "80%" }}
         >
-          ✓ In-person or Online
+          ✓ Anaerobic Training
         </h1>
         <h1
           className="paragraph montserrat"
           style={{ textAlign: "left", width: "80%" }}
         >
-          ✓ Professional Assistance
+          ✓ Interval Training
         </h1>
         <h1
           className="paragraph montserrat"
@@ -98,7 +98,7 @@ export default function PlansOpening() {
           className="paragraph montserrat"
           style={{ marginTop: "30px", textAlign: "center", width: "80%" }}
         >
-          Starting at $30/mo
+          Starting at $40/mo
         </h1>
         <Link component={RouterLink} to="/contact">
           <motion.button
@@ -113,7 +113,7 @@ export default function PlansOpening() {
       </Box>
       <Box className="plans--box">
         <h1 className="heading montserrat" style={{ textAlign: "center" }}>
-          Gain Muscle!
+          Lose Weight!
         </h1>
         <h1
           className="paragraph montserrat"
@@ -125,7 +125,7 @@ export default function PlansOpening() {
           className="paragraph montserrat"
           style={{ textAlign: "left", width: "80%" }}
         >
-          ✓ Home or Gym workouts
+          ✓ Scheduled meal plans
         </h1>
         <h1
           className="paragraph montserrat"
@@ -137,19 +137,19 @@ export default function PlansOpening() {
           className="paragraph montserrat"
           style={{ textAlign: "left", width: "80%" }}
         >
-          ✓ In-person or Online
+          ✓ Grocery Lists
         </h1>
         <h1
           className="paragraph montserrat"
           style={{ textAlign: "left", width: "80%" }}
         >
-          ✓ Professional Assistance
+          ✓ Cook Videos
         </h1>
         <h1
           className="paragraph montserrat"
           style={{ marginTop: "30px", textAlign: "center", width: "80%" }}
         >
-          Starting at $30/mo
+          Starting at $35/mo
         </h1>
         <Link component={RouterLink} to="/contact">
           <motion.button
