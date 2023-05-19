@@ -101,18 +101,18 @@ export default function Testimonials() {
           }}
         >
           <Box
-            className="home-opening-pic"
+            className="testimonial-opening-pic-2"
             sx={{ marginRight: "0", marginBottom: "20px" }}
           ></Box>
           <h3
             className="heading montserrat"
             style={{ margin: "0", fontSize: "1.5em" }}
           >
-            Roland Sanchez
+            Kyle Pachano
           </h3>
           <Box sx={{ width: "40%" }}>
             <h3 className="montserrat paragraph" style={{ fontSize: "1.3em" }}>
-              ❝ He helped me a lot with losing weight and gainging confidence!
+              ❝ Thank you Steven for helping me gain five pounds in muscle!
             </h3>
           </Box>
         </SwiperSlide>

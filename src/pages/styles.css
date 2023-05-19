@@ -68,6 +68,19 @@ svg {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.testimonial-opening-pic-2 {
+  background-image: url(../assets/kyle1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .home-opening-list {
   display: flex;
   flex-direction: column;
@@ -642,6 +655,16 @@ svg {
     width: 250px;
   }
 
+  .testimonial-opening-pic-1 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .testimonial-opening-pic-2 {
+    height: 250px;
+    width: 250px;
+  }
+
   .home-opening-list-item-icon {
     transform: scale(1.5);
   }
@@ -664,6 +687,16 @@ svg {
   }
 
   .home-opening-pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testimonial-opening-pic-1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testimonial-opening-pic-2 {
     width: 200px;
     height: 200px;
   }
