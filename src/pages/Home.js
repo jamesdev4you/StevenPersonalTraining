@@ -21,7 +21,7 @@ export default function Home() {
       <Box className="home-container">
         <Box className="home-opening-text-and-button">
           <h1 className="montserrat heading">
-            Lose Weight and Gain Confidence
+            Gain Confidence
           </h1>
           <h1 className="montserrat heading">
             With Your Own Personal Trainer!

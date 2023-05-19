@@ -5,15 +5,17 @@ import "../index.css";
 
 export default function Contact() {
   return (
+    
     <Box
       sx={{
-        width: "100%",
-        height: "auto",
+        width: "100vw",
+        height: "130%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         gap: "50px",
         backgroundColor: "#46B4E0",
+        paddingBottom: "100px"
       }}
     >
       <Box className="contact--pic" />
@@ -35,5 +37,6 @@ export default function Contact() {
       />
       <Box className="contact--pic--two" />
     </Box>
+    
   );
 }

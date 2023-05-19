@@ -63,7 +63,7 @@ export default function Testimonials() {
             Mitch Kandell
           </h3>
           <Box sx={{ width: "40%" }}>
-            <h3 className="montserrat paragraph" style={{ fontSize: "1.3em" }}>
+            <h3 className="montserrat paragraph" style={{ fontSize: "1.3em", textAlign: 'center'  }}>
               ❝ He helped me a lot with losing weight and gaining muscle!
             </h3>
           </Box>
@@ -77,7 +77,7 @@ export default function Testimonials() {
           }}
         >
           <Box
-            className="home-opening-pic"
+            className="testimonial-opening-pic-3"
             sx={{ marginRight: "0", marginBottom: "20px" }}
           ></Box>
           <h3
@@ -87,8 +87,8 @@ export default function Testimonials() {
             Roland Sanchez
           </h3>
           <Box sx={{ width: "40%" }}>
-            <h3 className="montserrat paragraph" style={{ fontSize: "1.3em" }}>
-              ❝ He helped me a lot with losing weight and gainging confidence!
+            <h3 className="montserrat paragraph" style={{ fontSize: "1.3em", textAlign: 'center' }}>
+              ❝ Steven is great at keeping me consistent with the gym!
             </h3>
           </Box>
         </SwiperSlide>
@@ -111,7 +111,7 @@ export default function Testimonials() {
             Kyle Pachano
           </h3>
           <Box sx={{ width: "40%" }}>
-            <h3 className="montserrat paragraph" style={{ fontSize: "1.3em" }}>
+            <h3 className="montserrat paragraph" style={{ fontSize: "1.3em", textAlign: 'center'  }}>
               ❝ Thank you Steven for helping me gain five pounds in muscle!
             </h3>
           </Box>

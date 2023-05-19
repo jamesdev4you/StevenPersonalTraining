@@ -1,3 +1,8 @@
+.App {
+  height: 100%;
+  background-color: #26a7da;
+}
+
 svg {
   display: block;
 }
@@ -71,6 +76,19 @@ svg {
 .testimonial-opening-pic-2 {
   background-image: url(../assets/kyle1.jpg);
   background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.testimonial-opening-pic-3 {
+  background-image: url(../assets/roland1.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -395,7 +413,14 @@ svg {
   .home-container {
     flex-direction: column-reverse;
     justify-content: space-around;
+    
   }
+
+  .heading {
+    font-size: 35px;
+    color: white;
+  }
+
   .home-opening-text-and-button {
     text-align: center;
     width: 100%;

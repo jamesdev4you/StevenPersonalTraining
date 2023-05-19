@@ -68,7 +68,7 @@ export default function HomePageGrid() {
           alignItems: "start",
           justifyContent: "center",
           gap: "50px",
-          paddingTop: "50px",
+          
         }}
         ref={ref}
       >

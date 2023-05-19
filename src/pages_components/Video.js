@@ -62,7 +62,18 @@ export default function Video() {
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         navigation
         pagination={{ clickable: true }}
-      >
+      > 
+      <SwiperSlide>
+          <Box className="icon--box">
+            <CallIcon className="icon--swiper" />
+            <h3
+              className="heading montserrat icon--header"
+              
+            >
+              813-445-8102
+            </h3>
+          </Box>
+        </SwiperSlide>
         <SwiperSlide style={{ width: "100%" }}>
           <Box className="icon--box">
             <AddCardIcon className="icon--swiper" />
@@ -72,6 +83,7 @@ export default function Video() {
             </h3>
           </Box>
         </SwiperSlide>
+        
         <SwiperSlide>
           <Box className="icon--box">
             <AddHomeWorkIcon className="icon--swiper" />
@@ -95,17 +107,7 @@ export default function Video() {
             <Box sx={{ width: "40%" }}></Box>
           </Box>
         </SwiperSlide>
-        <SwiperSlide>
-          <Box className="icon--box">
-            <CallIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-              
-            >
-              813-445-8102
-            </h3>
-          </Box>
-        </SwiperSlide>
+       
         <SwiperSlide>
           <Box className="icon--box">
             <CommuteIcon className="icon--swiper" />
