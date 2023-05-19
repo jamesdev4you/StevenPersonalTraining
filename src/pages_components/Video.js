@@ -47,15 +47,15 @@ export default function Video() {
           // when window width is >= 480px
           1600: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 0,
           },
           1700: {
             slidesPerView: 3,
-            spaceBetween: 70,
+            spaceBetween: 30,
           },
           2000: {
             slidesPerView: 3,
-            spaceBetween: 195,
+            spaceBetween: 235,
           },
         }}
         grabCursor
@@ -77,7 +77,7 @@ export default function Video() {
             <AddHomeWorkIcon className="icon--swiper" />
             <h3
               className="heading montserrat icon--header"
-              style={{ margin: "0", fontSize: "1.5em" }}
+              
             >
               Virtual or Real Life!
             </h3>
@@ -88,7 +88,7 @@ export default function Video() {
             <AddTaskIcon className="icon--swiper" />
             <h3
               className="heading montserrat icon--header"
-              style={{ margin: "0", fontSize: "1.5em" }}
+              
             >
               Cash Back guarantee!
             </h3>
@@ -100,7 +100,7 @@ export default function Video() {
             <CallIcon className="icon--swiper" />
             <h3
               className="heading montserrat icon--header"
-              style={{ margin: "0", fontSize: "1.5em" }}
+              
             >
               813-445-8102
             </h3>
@@ -111,7 +111,7 @@ export default function Video() {
             <CommuteIcon className="icon--swiper" />
             <h3
               className="heading montserrat icon--header"
-              style={{ margin: "0", fontSize: "1.5em" }}
+              
             >
               Transportation
             </h3>
@@ -122,7 +122,7 @@ export default function Video() {
             <EmojiEventsIcon className="icon--swiper" />
             <h3
               className="heading montserrat icon--header"
-              style={{ margin: "0", fontSize: "1.5em" }}
+              
             >
               Goals achieved!
             </h3>
@@ -133,7 +133,7 @@ export default function Video() {
             <SportsGymnasticsIcon className="icon--swiper" />
             <h3
               className="heading montserrat icon--header"
-              style={{ margin: "0", fontSize: "1.5em" }}
+             
             >
               Imporve flexibilty!
             </h3>
