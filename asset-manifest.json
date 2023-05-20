@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b8cce1c.css",
+    "main.js": "/static/js/main.f9cb88ac.js",
+    "static/media/healthyfood4.jpg": "/static/media/healthyfood4.061a42ab8af8d496bd3a.jpg",
+    "static/media/gympic2.jpg": "/static/media/gympic2.8dbebad70e2354431c1a.jpg",
+    "static/media/contactTwo.jpg": "/static/media/contactTwo.7facde393826e0c0a3d1.jpg",
+    "static/media/steve.jpg": "/static/media/steve.66d90f535ff0cca579a4.jpg",
+    "static/media/contactOne.jpg": "/static/media/contactOne.066adeee2404982895b3.jpg",
+    "static/media/gympic.jpg": "/static/media/gympic.f2e7b4e1b642656244e5.jpg",
+    "static/media/running.jpg": "/static/media/running.f565b59e6e0b3005e6e7.jpg",
+    "static/media/blueberries.jpg": "/static/media/blueberries.6e0b4e7bb3d8d76309e1.jpg",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
+    "static/media/PTSerif-Regular.ttf": "/static/media/PTSerif-Regular.f54e2f6009232070fd5a.ttf",
+    "static/media/kyle1.jpg": "/static/media/kyle1.6e58f43afcad170db4f6.jpg",
+    "static/media/roland1.jpg": "/static/media/roland1.7d7d1ec3fad85d819ddc.jpg",
+    "static/media/mitch1.jpg": "/static/media/mitch1.9ecc43e17f5b97770c4c.jpg",
+    "index.html": "/index.html",
+    "main.9b8cce1c.css.map": "/static/css/main.9b8cce1c.css.map",
+    "main.f9cb88ac.js.map": "/static/js/main.f9cb88ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b8cce1c.css",
+    "static/js/main.f9cb88ac.js"
+  ]
+}
