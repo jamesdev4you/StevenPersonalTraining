@@ -340,7 +340,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 3px solid black;
+  border-top: 1px solid black;
   padding: 0;
   margin: 0;
 }
@@ -377,7 +377,7 @@ svg {
 .grid--desciription--paragraph {
   padding-left: 50px;
   width: 80%;
-  padding-top: 50px;
+  padding-top: 20px;
   color: white;
 }
 
