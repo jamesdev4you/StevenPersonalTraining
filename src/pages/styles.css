@@ -257,6 +257,12 @@ svg {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.testimonial-paragraph {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
 .contact--pic {
   background-image: url(../assets/contactOne.jpg);
   background-position: center;
@@ -519,6 +525,10 @@ svg {
   .plans--grid--header > h1 {
     font-size: 2em;
   }
+
+  .testimonial-paragraph {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -669,6 +679,10 @@ svg {
     width: 250px;
     margin-bottom: 70px;
   }
+
+  .testimonial-paragraph {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 599px) {
@@ -687,6 +701,11 @@ svg {
   }
 
   .testimonial-opening-pic-2 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .testimonial-opening-pic-3 {
     height: 250px;
     width: 250px;
   }
@@ -727,6 +746,11 @@ svg {
     height: 200px;
   }
 
+  .testimonial-opening-pic-3 {
+    width: 200px;
+    height: 200px;
+  }
+
   .plans--grid--header > h1 {
     font-size: 1.3em;
   }
@@ -749,6 +773,10 @@ svg {
 
   .paragraph {
     font-size: 0.8em;
+  }
+
+  .testimonial-paragraph {
+    font-size: 18px;
   }
 }
 

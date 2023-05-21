@@ -63,7 +63,7 @@ export default function Testimonials() {
             Mitch Kandell
           </h3>
           <Box sx={{ width: "80%" }}>
-            <h3 className="montserrat Grid-item-paragraph">
+            <h3 className="montserrat testimonial-paragraph">
               ❝ He helped me a lot with losing weight and gaining muscle!
             </h3>
           </Box>
@@ -87,7 +87,7 @@ export default function Testimonials() {
             Roland Sanchez
           </h3>
           <Box sx={{ width: "80%" }}>
-            <h3 className="montserrat Grid-item-paragraph">
+            <h3 className="montserrat testimonial-paragraph">
               ❝ Steven is great at keeping me consistent with the gym!
             </h3>
           </Box>
@@ -110,8 +110,8 @@ export default function Testimonials() {
           >
             Kyle Pachano
           </h3>
-          <Box sx={{ width: "80%" }}>
-            <h3 className="montserrat Grid-item-paragraph">
+          <Box sx={{ width: "80%", marginLeft: "auto", marginRight: "auto" }}>
+            <h3 className="montserrat testimonial-paragraph">
               ❝ Thank you Steven for helping me gain five pounds in muscle!
             </h3>
           </Box>
