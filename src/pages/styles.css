@@ -24,6 +24,7 @@ svg {
 .paragraph {
   font-size: 25px;
   color: white;
+  text-align: "center";
 }
 
 .home-opening-button {
@@ -204,7 +205,7 @@ svg {
 
 .video--container {
   width: 100%;
- 
+
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -413,7 +414,6 @@ svg {
   .home-container {
     flex-direction: column-reverse;
     justify-content: space-around;
-    
   }
 
   .heading {
@@ -528,10 +528,9 @@ svg {
   .icon--box {
     width: 250px;
     min-height: 250px;
-    
+
     margin-left: auto;
     margin-right: auto;
-    
   }
 
   .icon--header {
@@ -669,7 +668,6 @@ svg {
   .icon--box {
     width: 250px;
     margin-bottom: 70px;
-    
   }
 }
 
@@ -743,11 +741,14 @@ svg {
     height: 200px;
     min-height: 150px;
     margin-bottom: 30px;
-    
   }
 
   .icon--header {
     font-size: 1.1em;
+  }
+
+  .paragraph {
+    font-size: 0.8em;
   }
 }
 
@@ -760,8 +761,6 @@ svg {
     width: 170px;
     height: 170px;
     min-height: 60px;
-    
-    
   }
 
   .icon--header {
@@ -779,16 +778,16 @@ svg {
   }
 
   .icon--header {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
 @media screen and (max-width: 290px) {
-  .icon--header{
-    font-size: .8em;
+  .icon--header {
+    font-size: 0.8em;
   }
 
-  .icon--header{
-    font-size: .8em;
+  .icon--header {
+    font-size: 0.8em;
   }
 }
