@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcd33dcb.css",
+    "main.css": "/static/css/main.4e59de50.css",
     "main.js": "/static/js/main.faf039e2.js",
     "static/media/healthyfood4.jpg": "/static/media/healthyfood4.061a42ab8af8d496bd3a.jpg",
     "static/media/gympic2.jpg": "/static/media/gympic2.8dbebad70e2354431c1a.jpg",
@@ -16,11 +16,11 @@
     "static/media/roland1.jpg": "/static/media/roland1.7d7d1ec3fad85d819ddc.jpg",
     "static/media/mitch1.jpg": "/static/media/mitch1.9ecc43e17f5b97770c4c.jpg",
     "index.html": "/index.html",
-    "main.bcd33dcb.css.map": "/static/css/main.bcd33dcb.css.map",
+    "main.4e59de50.css.map": "/static/css/main.4e59de50.css.map",
     "main.faf039e2.js.map": "/static/js/main.faf039e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd33dcb.css",
+    "static/css/main.4e59de50.css",
     "static/js/main.faf039e2.js"
   ]
 }
