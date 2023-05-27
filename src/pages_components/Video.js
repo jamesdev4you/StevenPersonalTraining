@@ -18,7 +18,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../pages/styles.css";
-import "../index.css";
 
 export default function Video() {
   return (
@@ -62,16 +61,11 @@ export default function Video() {
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         navigation
         pagination={{ clickable: true }}
-      > 
-      <SwiperSlide>
+      >
+        <SwiperSlide>
           <Box className="icon--box">
             <CallIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-              
-            >
-              813-445-8102
-            </h3>
+            <h3 className="heading montserrat icon--header">813-445-8102</h3>
           </Box>
         </SwiperSlide>
         <SwiperSlide style={{ width: "100%" }}>
@@ -83,14 +77,11 @@ export default function Video() {
             </h3>
           </Box>
         </SwiperSlide>
-        
+
         <SwiperSlide>
           <Box className="icon--box">
             <AddHomeWorkIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-              
-            >
+            <h3 className="heading montserrat icon--header">
               Virtual or Real Life!
             </h3>
           </Box>
@@ -98,45 +89,29 @@ export default function Video() {
         <SwiperSlide>
           <Box className="icon--box">
             <AddTaskIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-              
-            >
+            <h3 className="heading montserrat icon--header">
               Cash Back guarantee!
             </h3>
             <Box sx={{ width: "40%" }}></Box>
           </Box>
         </SwiperSlide>
-       
+
         <SwiperSlide>
           <Box className="icon--box">
             <CommuteIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-              
-            >
-              Transportation
-            </h3>
+            <h3 className="heading montserrat icon--header">Transportation</h3>
           </Box>
         </SwiperSlide>
         <SwiperSlide>
           <Box className="icon--box">
             <EmojiEventsIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-              
-            >
-              Goals achieved!
-            </h3>
+            <h3 className="heading montserrat icon--header">Goals achieved!</h3>
           </Box>
         </SwiperSlide>
         <SwiperSlide>
           <Box className="icon--box">
             <SportsGymnasticsIcon className="icon--swiper" />
-            <h3
-              className="heading montserrat icon--header"
-             
-            >
+            <h3 className="heading montserrat icon--header">
               Imporve flexibilty!
             </h3>
           </Box>
